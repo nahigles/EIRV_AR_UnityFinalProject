@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Desierto" size="1.000000 0.666667" />
+    <ImageTarget name="Artico" size="1.000000 0.562500" />
+    <ImageTarget name="Tropical" size="1.000000 0.666667" />
+    <ImageTarget name="MontanayBosque" size="1.000000 0.666667" />
+  </Tracking>
+</QCARConfig>

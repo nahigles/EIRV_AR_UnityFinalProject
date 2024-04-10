@@ -2922,13 +2922,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: target
+  mTrackableName: Desierto
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Robot.xml
-  mAspectRatio: 1.414196
+  mDataSetPath: Vuforia/ProyectoFinalEIRV.xml
+  mAspectRatio: 0.666667
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.414196
+  mHeight: 0.666667
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2970,8 +2970,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 748385999}
   mHiddenRoot: {fileID: 0}
-  mTargetName: target
-  mDatasetName: Vuforia/Robot.xml
+  mTargetName: Desierto
+  mDatasetName: Vuforia/ProyectoFinalEIRV.xml
   mCastedBehaviour: {fileID: 748385999}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}

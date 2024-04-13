@@ -5675,7 +5675,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Desierto
+  mTrackableName: MontanayBosque
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/ProyectoFinalEIRV.xml
   mAspectRatio: 0.666667
@@ -5726,7 +5726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 748385999}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Desierto
+  mTargetName: MontanayBosque
   mDatasetName: Vuforia/ProyectoFinalEIRV.xml
   mCastedBehaviour: {fileID: 748385999}
   mMeshFilter: {fileID: 0}

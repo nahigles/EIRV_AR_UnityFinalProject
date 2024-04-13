@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,10 +6,13 @@ using UnityEngine;
 public class VerticalMovement : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 1;
+    private float speed = 1f;
+
+    [SerializeField]
+    int myTime = 1;
     int dir = -1;
     private Transform _transform;
-    int i = 5;
+    float acum = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -19,14 +23,18 @@ public class VerticalMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (i > 5)
+        if (acum > myTime)
         {
-            _transform.Translate(new Vector3(0, speed * dir, 0) * Time.deltaTime);
-            i = 0;
+            acum = 0;
             dir = -dir;
 
         }
-        i++;
+
+        Vector3 myVec = new Vector3(0.0f, speed * dir, 0.0f);
+        _transform.Translate(myVec.normalized * Time.deltaTime*0.1f);
+        acum += Time.deltaTime;
+
+        Debug.Log(myVec + " " + myVec.normalized);
 
     }
 }

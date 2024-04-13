@@ -9124,6 +9124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  myTime: 2
 --- !u!1 &1380744691
 GameObject:
   m_ObjectHideFlags: 0

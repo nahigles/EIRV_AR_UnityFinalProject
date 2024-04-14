@@ -1219,6 +1219,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7878579326575222135, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7957
+      objectReference: {fileID: 0}
+    - target: {fileID: -7878579326575222135, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7878579326575222135, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15300007
+      objectReference: {fileID: 0}
+    - target: {fileID: -370075853213698031, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7957
+      objectReference: {fileID: 0}
+    - target: {fileID: -370075853213698031, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.153
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
       propertyPath: m_Name
       value: model
@@ -5720,7 +5740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 27.2426
+      value: 26.187222
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
       propertyPath: m_LocalScale.z
@@ -5732,7 +5752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 39.6
+      value: 42.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 552a8352e654b6e42bba365c84d5432c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8039,7 +8059,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -16536,7 +16556,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5b1f7e4df08c33c4eb641c8dd8ece7c5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1

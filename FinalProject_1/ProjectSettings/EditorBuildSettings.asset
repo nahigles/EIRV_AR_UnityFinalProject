@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Desierto.unity
     guid: 00b42805aded17d45a57b927fd795bbf
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/Monta\xF1a.unity"
     guid: 690849305d7c34a4b8743ab89b482eae
   m_configObjects: {}

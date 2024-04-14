@@ -31,10 +31,7 @@ public class VerticalMovement : MonoBehaviour
         }
 
         Vector3 myVec = new Vector3(0.0f, speed * dir, 0.0f);
-        _transform.Translate(myVec.normalized * Time.deltaTime*0.1f);
+        _transform.Translate(myVec.normalized * Time.deltaTime*0.02f);
         acum += Time.deltaTime;
-
-        Debug.Log(myVec + " " + myVec.normalized);
-
     }
 }
